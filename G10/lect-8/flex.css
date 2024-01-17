@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    border: 5px solid green;
+    height: 300px;
+    width: 500px;
+    align-items: last baseline;
+}
