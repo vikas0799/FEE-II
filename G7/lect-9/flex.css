@@ -1,0 +1,11 @@
+main{
+    color: red;
+    font-size: xx-large;
+    border: 4px solid green;
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
