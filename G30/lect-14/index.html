@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div p{
+            color: red;
+        } */
+        /* div > p{
+            color: red;
+        } */
+        /* div + p{
+            color: red;
+        } */
+        div ~ p{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <h1>Lorem ipsum dolor sit.</h1>
+        <section>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </section>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque vero beatae consequuntur ipsam eum a
+       nobis beatae, iusto officia. Tenetur debitis dicta ab. Velit, eius pariatur.</p>
+    <p>Lorem ipsum dolor sit.</p>
+</body>
+
+</html>
