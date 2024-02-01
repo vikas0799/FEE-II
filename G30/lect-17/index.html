@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px; */
+            /* grid-template-columns: 100px auto auto; */
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-rows: 20px 50px 60px;
+            /* gap: 10px 20px; */
+            row-gap: 23px;
+            column-gap: 10px;
+            border: 3px solid black;
+        }
+        .item{
+            color: blue;
+            background-color: aqua;
+            /* height: 100px; */
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+    </main>
+</body>
+</html>
