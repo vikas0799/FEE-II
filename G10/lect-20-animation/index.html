@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
+}
+div:hover{
+    animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease;
+}
+
+@keyframes example {
+  0%   {background-color: red;height: 200px;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;height: 300px;}
+  100% {background-color: green;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+</body>
+</html>
