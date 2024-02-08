@@ -1,0 +1,16 @@
+$myFont: Helvetica, sans-serif;
+$myColor: rgb(221, 255, 0);
+$myColorbg: rgb(90, 206, 134);
+$myFontSize: 18px;
+$myWidth: 680px;
+$myColor1:rgb(41, 19, 171);
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+  background-color: $myColorbg;
+}
+p{
+    background-color: $myColor1;
+}

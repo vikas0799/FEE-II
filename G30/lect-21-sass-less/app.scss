@@ -1,0 +1,25 @@
+// $primary_1: #a2b9bc;
+// $primary_2: red;
+// $primary_3: #81d82a;
+
+// /* use the variables */
+// body {
+//   background-color: $primary_3;
+//   color: $primary_2;
+// }
+// p{
+//     color: $primary_2;
+// }
+$myFont: Helvetica, sans-serif;
+
+$myColor: rgb(57, 141, 109);
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+
+}
+
