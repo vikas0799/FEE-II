@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+}
+
+.circle{
+    border-radius: 50%;
+}

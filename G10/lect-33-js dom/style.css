@@ -1,0 +1,16 @@
+div{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+li{
+    color: red;
+    font-weight: bolder;
+}
+
+.circle{
+    border-radius: 50%;
+    color: blue;
+}
