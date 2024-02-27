@@ -1,22 +1,24 @@
 // // console.log("hello g7");
 
-// // // let ans=document;
-// // let ans=document.head;
-// // console.log(ans);
+// let ans=document;
+// console.log(ans);
+// let ans=document.body;
+// console.log(ans);
 
-// // document.body.style.background="green";
+// document.body.style.background="green";
 
-
+// let ans=window;
+// console.log(ans);
 
 // // let x=prompt("enter a number");
-// // let x=window.prompt("enter a number");
-// // console.log(x);
+//  let x=window.prompt("enter a number");
+//  console.log(x);
 
 
 // // let ans=window;
 // // console.log(ans);
 
-// // window.document.body.style.color="red";
+//  window.document.body.style.color="red";
 
 // const url = 'https://shopifyvolodimir-kudriachenkov1.p.rapidapi.com/activateApplicationCharge';
 // const options = {
