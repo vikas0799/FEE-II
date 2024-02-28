@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>first para</p>
+        <p>second para</p>
+    </div>
+
+     <script>
+           let ans=document.createElement("p");
+           ans.innerHTML="faham ";
+        //    console.log(ans);
+
+      let div=  document.getElementsByTagName("div");
+    //    div[0].appendChild(ans);
+       div[0].prepend(ans);
+
+     </script>
+</body>
+</html>
