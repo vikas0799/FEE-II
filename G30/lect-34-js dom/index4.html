@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button id="increase">increase </button>
+    <button id="decrease">decrease </button>
+    <script>
+        let cnt=0;
+        let element=document.getElementsByTagName("h1");
+        document.getElementById("increase").addEventListener("click",(e)=>{
+            cnt++;
+            element[0].textContent=cnt;
+        })
+        document.getElementById("decrease").addEventListener("click",(e)=>{
+            cnt--;
+            element[0].textContent=cnt;
+        })
+    </script>
+</body>
+</html>
