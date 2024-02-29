@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="myParagraph">Hello <span style="display: none;">World</span></p>
+
+    
+    <script>
+        const paragraph = document.getElementById('myParagraph');
+        console.log(paragraph.textContent); // Output: "Hello World"
+        paragraph.textContent = 'New Text';
+        console.log(paragraph.textContent); // Output: "New Text"
+    </script>
+</body>
+
+</html>
