@@ -4,7 +4,7 @@ function asynchronousTask() {
       setTimeout(function() {
         console.log("Asynchronous task completed");
         resolve();
-      }, 3000);
+      }, 1000);
     });
   }
   // Using promises to handle asynchronous tasks sequentially
