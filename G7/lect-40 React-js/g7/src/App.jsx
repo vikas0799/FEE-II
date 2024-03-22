@@ -3,21 +3,53 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Vikas from './Vikas'
+import Card from './Card'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Vikas/>
-    <Vikas/>
-    <Vikas/>
-    <Vikas/>
-    <Vikas/>
-    <Vikas/>
-    <Vikas/>
+    <main>
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card /><Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card /><Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    </main>
 
-     <p>g7 is a good batch</p>
+    <p>welcome to chitkara</p>
+
+
+
+
+
+    {/* <Vikas/>
+    <Vikas/>
+    <Vikas/>
+    <Vikas/>
+    <Vikas/>
+    <Vikas/>
+    <Vikas/> */}
+
+     {/* <p>g7 is a good batch</p>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -37,7 +69,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
