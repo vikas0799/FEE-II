@@ -6,4 +6,11 @@ img{
     height: 150px;
     width: 150px;
     margin: 15px;
+    /* border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    row-gap: 2px;
+    color: red; */
 }

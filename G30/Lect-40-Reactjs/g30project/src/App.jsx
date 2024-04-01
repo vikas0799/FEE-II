@@ -21,8 +21,8 @@ function App() {
     <Goyal />
     <Goyal />
    </main>
-
-    <p>Lorem ipsum dolor sit.</p>
+     
+    {/* <p>Lorem ipsum dolor sit.</p> */}
     <div>
       <ul>
         <li>item-1</li>
