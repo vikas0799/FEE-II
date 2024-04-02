@@ -5,14 +5,20 @@ import './App.css'
 import Card from './Card'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // const [count, setCount] = useState(0)
+  const obj={
+    name:"nishtha",
+    roll:621,
+    dist:"panchkula"
+  }
+   
   return (
     <>
-    <Card/>
-    <Card/>
+    {/* <Card  userdata={236} name="vikas patel" /> */}
+    <Card userdata={obj}   age={21}/>
+    {/* <Card/> */}
 
-    <p>Lorem, ipsum dolor.</p>
+    {/* <p>Lorem, ipsum dolor.</p> */}
     </>
   )
 }
