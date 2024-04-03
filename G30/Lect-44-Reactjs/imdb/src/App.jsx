@@ -5,17 +5,17 @@ import './App.css'
 import Card from './Card'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-    <Card/>
-     <p>welcome yto g30</p>
+ <Card  userdata={1000}/>
+     {/* <p>welcome yto g30</p>
      <ul>
       <li>item-1</li>
       <li>item-2</li>
       <li>item-3</li>
-     </ul>
+     </ul> */}
     </>
   )
 }
