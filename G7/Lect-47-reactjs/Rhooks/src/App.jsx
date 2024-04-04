@@ -5,6 +5,21 @@ import "./App.css";
 import Dhruv from "./Dhruv";
 
 function App() {
+//  let cnt=1;
+// const [cnt, setCnt] = useState(1);
+// function Add() {
+//   console.log("hello g7");
+//   cnt++;
+//   console.log(cnt);
+//   if (cnt <= 10) {
+//     setCnt(cnt);
+//   }
+// }
+// function Remove() {
+//   setCnt(cnt - 1);
+// }
+
+
   const [isvisible,setVisible]=useState(false);
 
    function Toggle(){
