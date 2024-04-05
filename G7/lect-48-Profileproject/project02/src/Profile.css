@@ -1,0 +1,16 @@
+.box{
+    border: 3px solid red;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+}
+#img{
+    height: 200px;
+    width: 250px;
+}
+.boxin{
+    display: flex;
+    justify-content: space-between;
+}
