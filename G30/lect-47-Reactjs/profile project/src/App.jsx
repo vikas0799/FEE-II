@@ -32,12 +32,6 @@ function App() {
       batch:"g7",
       age:20,
       image:"https://th.bing.com/th/id/OIP.Pez8wXgA1DNSHDevLGRZtAHaHa?w=600&h=600&rs=1&pid=ImgDetMain"
-    },
-    {
-      name:"lakshay",
-      batch:"g30",
-      age:21,
-      image:""
     }
    ]  
 

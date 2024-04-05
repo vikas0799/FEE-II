@@ -8,12 +8,11 @@ function Profile(props) {
     <>
       <h1>profile component</h1>
       {
-         arr.map((value,idx) => {
+         arr.map((value) => {
          return (
-          <div className="box" key={idx}>
+          <div className="box">
              <div className="boxin">
              profile data
-             {idx}
             {value.name}
             {value.batch}
             {value.college}

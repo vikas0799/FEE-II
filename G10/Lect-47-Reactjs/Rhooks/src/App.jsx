@@ -20,7 +20,7 @@ function App() {
   const [isvisible,setVisible]=useState(false);
 
    function Toggle(){
-     setVisible(!isvisible);
+     setVisible(! isvisible);
    }
   return (
     <>
