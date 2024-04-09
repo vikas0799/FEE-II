@@ -1,0 +1,8 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+div{
+    border: 3px solid black;
+    margin: 20px;
+}

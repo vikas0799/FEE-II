@@ -13,7 +13,7 @@ function User() {
     );
 
   useEffect(()=>{
-      fetch("https://api.github.com/users/vikas0799")
+      fetch("https://api.github.com/users/lakshaychitkara")
       .then((responce)=>{ return responce.json()})
       .then((data)=>{
         console.log(data);
