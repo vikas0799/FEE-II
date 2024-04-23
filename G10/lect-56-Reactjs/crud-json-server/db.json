@@ -50,6 +50,30 @@
       "name": "suddeep",
       "email": "sudeep@google.com",
       "message": "i am vikas"
+    },
+    {
+      "id": "affa",
+      "name": "lakshay",
+      "email": "lakshay@gmail.com",
+      "message": "bad student"
+    },
+    {
+      "id": "b969",
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "message": "luckmow"
+    },
+    {
+      "id": "eed8",
+      "name": "jashon",
+      "email": "jashon@gmail.com",
+      "message": "good student"
+    },
+    {
+      "id": "945c",
+      "name": "kanchan ",
+      "email": "kanchan@gmail.com",
+      "message": "bad student"
     }
   ]
 }
